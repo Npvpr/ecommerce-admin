@@ -9,12 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth/mongodb-adapter": "^2.0.3",
-    "mongodb": "^6.2.0",
+    "@auth/mongodb-adapter": "^2.0.6",
+    "@aws-sdk/client-s3": "^3.450.0",
+    "axios": "^1.6.1",
+    "date-fns": "^2.30.0",
+    "mime-types": "^2.1.35",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.0",
+    "multiparty": "^4.2.3",
     "next": "14.0.1",
     "next-auth": "^4.24.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-sortablejs": "^6.1.4",
+    "react-spinners": "^0.13.8",
+    "react-sweetalert2": "^0.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
